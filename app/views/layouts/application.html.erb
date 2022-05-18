@@ -12,6 +12,12 @@
   </head>
 
   <body>
+  <div class="navbar">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Yelp_Logo.svg" alt="Logo_Yelp" width="80px">
+  <%= link_to 'See All Restaurants', restaurants_path, class:"btn btn-primary" %>
+  </div>
+  <div class="container">
     <%= yield %>
+  </div>
   </body>
 </html>

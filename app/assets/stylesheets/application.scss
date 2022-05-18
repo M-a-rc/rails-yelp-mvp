@@ -11,3 +11,27 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #EA3B2E;
+}
+
+.btn-primary {
+  background-color: #EA3B2E;
+  border: none;
+}
+
+.navbar {
+  background-color: #B6D6CC ;
+  position: sticky;
+  top: 0px;
+}
+
+.footbtn {
+  margin-top: 20px;
+}
